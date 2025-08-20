@@ -4,5 +4,6 @@ format: html
 ---
 
 ```{r}
-shirt_data = rbinom(n = 4, size = 12, prob = 0.5)
+shirt_data = rbinom(n = 400000, size = 12, prob = 0.5)
+hist(shirt_data)
 ```
